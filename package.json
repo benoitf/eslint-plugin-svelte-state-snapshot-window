@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-svelte-state-snapshot-window",
-  "version": "1.0.0",
+  "version": "0.2.0-next",
   "description": "ESLint rules to enforce $state.snapshot usage when passing Svelte $state variables to window.* calls (Electron IPC).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
