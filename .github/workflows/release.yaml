@@ -84,7 +84,7 @@ jobs:
           echo "🔅 Mark the PR as being ok to be merged automatically"
           gh pr merge "${pullRequestUrl}" --auto --rebase
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
   build:
     name: Build
