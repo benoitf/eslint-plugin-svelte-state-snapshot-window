@@ -157,6 +157,9 @@ jobs:
       - name: Execute pnpm
         run: pnpm install
 
+      - name: Execute pnpm
+        run: pnpm build
+
       - name: Set-up npmjs auth token
         run: printf "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}\n" >> ~/.npmrc
 
